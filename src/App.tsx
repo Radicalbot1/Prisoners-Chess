@@ -1,4 +1,5 @@
 import React from 'react';
+import { ChessBoard } from './ChessBoard';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,9 @@ function App() {
           Never Learn React
         </a>
       </header>
+      <body> 
+        <ChessBoard />
+      </body>
     </div>
   );
 }
