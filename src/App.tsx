@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChessBoard } from './ChessBoard';
+import ChessBoard from './ChessBoard';
 import logo from './logo.svg';
 import './App.css';
 
