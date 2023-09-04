@@ -1,5 +1,6 @@
 import React from 'react';
-import { ChessBoard } from './ChessBoard';
+
+import ChessBoard from './ChessBoard';
 import ModeToggle from './ModeToggle';
 import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
 import { Box, Button, Container, Grid, Paper, Typography } from '@mui/material';
