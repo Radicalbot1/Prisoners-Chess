@@ -34,12 +34,16 @@ const ChessBoard = ({ width, height }: ChessBoardProps) => {
         }
     },[]);
 
-    return <canvas ref={canvasRef} height={height} width={width} />;
+    console.log(width, height);
+
+    return <canvas ref={canvasRef} height={height} width={width}></canvas>;
+    //vh, vw, and % make this act weird.
 };
 
 ChessBoard.defaultProps = {
-    width: 500,
-    height: 500
+    width: 750,
+    height: 750
 };
+
 
 export default ChessBoard;
